@@ -16,6 +16,7 @@ services:
   rsyslog:
     # This builds an Alpine Linux image with rsyslog and rsyslog-tls installed.
     build: docker/rsyslog
+    image: rsyslog:8.1911-alpine
     volumes:
       - ./docker/rsyslog/rsyslog.conf:/etc/rsyslog.conf:ro
 
