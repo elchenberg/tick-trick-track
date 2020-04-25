@@ -4,6 +4,8 @@
 
 This setup enables the Telegraf Syslog plugin to parse Nginx Syslog messages by using a Rsyslog relay server to convert the messages from the legacy format (BSD-syslog / RFC 3164) to the newer message format (IETF-syslog / RFC 5424).
 
+![Screenshot of a Chronograf UI showing Nginx Syslog messages](screenshot.png)
+
 ## Prerequisites
 
 - Docker 18.06.0+
